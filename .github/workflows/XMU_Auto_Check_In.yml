@@ -5,7 +5,7 @@ name: XMU_Auto_Check_In
 
 on:
   schedule:
-    - cron: '0 22 * * *'
+    - cron: '13 4 * * *'
   # push:
   #   branches: [ master ]
   workflow_dispatch:
