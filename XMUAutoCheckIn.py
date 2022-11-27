@@ -24,7 +24,7 @@ DIRECT_CHECKIN_URL = 'http://xmuxg.xmu.edu.cn/app/214'
 
 
 def random_second() -> int:
-    return random.randrange(start=0, stop=3600, step=1)
+    return random.randrange(start=0, stop=1, step=1)
 
 
 def unix_timestamp() -> int:
