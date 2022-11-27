@@ -4,11 +4,11 @@
 name: XMU_Auto_Check_In
 
 on:
-  push:
-    branches: [ master ]
-  workflow_dispatch:
   schedule:
     - cron: '0 22 * * *'
+  # push:
+  #   branches: [ master ]
+  workflow_dispatch:
     # cron表达式，Actions时区是UTC时间，北京时间要往前推8个小时。
     # 第一位30指代分钟，第二位0指代小时，24小时制，这个设置即为北京时间8：30
 
