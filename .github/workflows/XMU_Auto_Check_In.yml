@@ -28,7 +28,7 @@ jobs:
           bash sleep.sh
 
   build:
-
+    needs: sleep
     runs-on: ubuntu-latest
 
     steps:
